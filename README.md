@@ -1,6 +1,6 @@
 # amazon-reviews-crawler
 
-This is a Python based Amazon Appstore Crawler which require:
+This is a Python based Amazon reviews crawler which require:
 
     - Python
     - Selenium (Install - pip install selenium)

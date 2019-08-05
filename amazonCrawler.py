@@ -12,7 +12,6 @@ import selenium.webdriver.support.expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
 # @author Nahida Sultana Chowdhury <nschowdh@iu.edu>
-#additionally add CSV file method here...
 
 non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 chromedriver_loc = "/home/mitu/Desktop/gcrawlertest/my_crawler/env/bin/chromedriver"

@@ -2,7 +2,7 @@
 
 This is a Python based Amazon reviews crawler which require:
 
-    - Python
+    - Python 2.7+
     - Selenium (Install - pip install selenium)
     - beautifulsoup4
     - Chromedriver (need to place in the same working directory)

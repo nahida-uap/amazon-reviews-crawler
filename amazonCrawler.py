@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# @author Nahida Sultana Chowdhury <nschowdh@iu.edu>
+
 import time
 import csv
 from bs4 import BeautifulSoup
@@ -10,8 +13,6 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 import selenium.webdriver.support.expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
-
-# @author Nahida Sultana Chowdhury <nschowdh@iu.edu>
 
 non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 chromedriver_loc = "/home/mitu/Desktop/gcrawlertest/my_crawler/env/bin/chromedriver"
